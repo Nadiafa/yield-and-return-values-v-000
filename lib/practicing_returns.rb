@@ -5,10 +5,10 @@ def hello(array)
   collection = []
   
   while i < array.length
-    binding.pry
     collection << yield(array[i])
     i += 1
   end
+  
 end
 
 
